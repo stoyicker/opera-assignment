@@ -16,7 +16,7 @@ android {
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
         testInstrumentationRunner rootProject.ext.androidTestInstrumentationRunner
-        buildConfigField "String", "API_URL", System.getenv("API_URL") != null ? System.getenv("API_URL") : prop_api_url
+        buildConfigField "String", "API_URL", '"https://www.reddit.com"'
     }
 
     dexOptions {
