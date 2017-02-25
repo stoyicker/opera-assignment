@@ -16,7 +16,7 @@ android {
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
         testInstrumentationRunner rootProject.ext.androidTestInstrumentationRunner
-        buildConfigField "String", "API_URL", '"https://www.reddit.com"'
+        buildConfigField "String", "API_URL", '"https://www.reddit.com/"'
     }
 
     dexOptions {
